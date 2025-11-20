@@ -1,5 +1,6 @@
 local car
 
+
 local keys = {
     ["LEFT"] = 0xA65EBAB4,
     ["RIGHT"] = 0xDEB34313,
@@ -105,4 +106,5 @@ Citizen.CreateThread(function()
             end
         end
     end
+
 end)
